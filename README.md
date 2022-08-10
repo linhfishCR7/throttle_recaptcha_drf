@@ -1,6 +1,6 @@
 # README #
 
-Just use authentication flow to describe this  with recaptcha
+Just use authentication flow to describe this throttle with recaptcha
 
 ###  How to set up? ###
 1. Create virtual env for project
