@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+      .g-recaptcha {
+        background-color: #f1f1f1;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <!--<div class="h-recaptcha" data-sitekey="{{key}}" data-callback="captchaCallback"></div> -->
+    <div class="g-recaptcha" data-sitekey="{{key}}" data-callback="captchaCallback"></div>
+<script>
+  var captchaCallback = function(response) {
+        console.log(response);
+    };
+</script>
+  </body>
+</html>
